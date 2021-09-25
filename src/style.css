@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+#content {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./beach.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+
+    
+}
+
+#header {
+    background: rgba(5, 49, 5, 0.795);
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+#main, #menu, #about {
+    padding: 10px 30px;
+}
+
+#main:hover, #menu:hover, #about:hover {
+    color: rgb(24, 73, 12);
+    cursor: pointer;
+}
+
+
+#container {
+    display: fleX; 
+    flex-direction: column;
+    align-items: center;
+    
+    
+    margin: 80px;
+    width: 50%;
+    height: 100%;
+    background:  rgba(45, 68, 51, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(112, 112, 139, 0.37);
+    
+    
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+}
+
+h1 {
+    color: rgb(207, 223, 151);
+    text-shadow: rgba(0, 0, 0, 1);
+    background: rgba(19, 34, 8, 0.3);
+    width: 100%;
+    text-align: center;
+    border-radius: 10px 10px 0 0 ;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#description {
+    margin: 20px;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.3;
+    display: inline;
+    box-decoration-break: clone;
+    padding: 0.5 rem;
+    width: 80%;
+    text-align: center;
+}
+
+table {
+    margin: 20px;
+    background:rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    border-spacing: 0;
+    width: 80%;
+}
+
+tr:nth-child(even) {
+    border: none;
+    background:  rgba(188, 255, 202, 0.271);
+}
+
+tr {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+td {
+    border: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    opacity: 0.6;
+}
+#map {
+    width: 80%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+
+.title {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.description {
+    grid-column: 1 /2;
+    grid-row: 2 /3;
+}
+.price {
+    grid-column: 1 /2;
+    grid-row: 3 /4;
+}
+.picture {
+    border-radius:  50%;
+    height: 100px;
+    width: 100px;
+    grid-column: auto;
+    grid-row: 1 / 4;
+}
+
+
+.item {
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.158);
+    border-radius: 10px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 15% 70% 15%;
+    padding: 20px;
+    background: rgba(32, 56, 9, 0.295);
+}
+
+#menuu {
+    margin: 20px;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.192);
+    padding: 10px;
+    background:  rgba(45, 68, 51, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(112, 112, 139, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+#title {
+    padding: 0 30px ;
+    color: white;
+}
